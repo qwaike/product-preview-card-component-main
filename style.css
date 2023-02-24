@@ -1,0 +1,102 @@
+/*
+# Front-end Style Guide
+## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+## Colors
+
+### Primary
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+
+*/
+
+.container {
+    height: 600px;
+    background-color: hsl(30, 38%, 92%);
+
+}
+.row {
+    background-color: white;
+}
+.rounded {
+    border-radius: 5px;
+}
+
+.perfume {
+    text-transform:uppercase;
+    text-align: left;
+    font-weight:200;
+    font-size: 0.7rem;
+    letter-spacing: 6px;
+}
+.brand {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.desc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    text-align: left;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+.discount {
+    text-decoration: line-through;
+    color: hsl(0, 0%, 40%);
+    font-size: 14px;
+
+}
+.price {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 700;
+    line-height: 2rem;
+}
+button {
+    background-color: hsl(158, 36%, 37%); /* Green */
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+
+  .esvici{
+    margin-bottom: 4px;
+    margin-right: 10px;
+  }
