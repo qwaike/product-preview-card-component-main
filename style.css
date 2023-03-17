@@ -48,7 +48,7 @@ The designs were created to the following widths:
     text-transform:uppercase;
     text-align: left;
     font-weight:200;
-    font-size: 0.7rem;
+    font-size: 0.7rem; 
     letter-spacing: 6px;
 }
 .brand {
